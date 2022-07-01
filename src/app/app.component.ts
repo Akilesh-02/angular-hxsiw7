@@ -13,6 +13,7 @@ export class AppComponent {
     this.user = new User();
     this.user.name = 'Akilesh';
     this.user.company = 'Capgemini';
+    this.user.address = 'Mandya';
     this.user.phoneNumbers = ['97434', '81232'];
   }
 }

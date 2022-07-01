@@ -9,7 +9,13 @@ import { User } from './user.model';
 export class UserComponent implements OnInit {
   @Input('user') user: User;
 
+  isCollapsed : boolean = false;
+
   constructor() {}
+
+  toggleCollapsed(){
+    this.isCollapsed = !this.isCollapsed;
+  }
 
   ngOnInit() {}
 }
